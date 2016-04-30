@@ -23,6 +23,8 @@ Call<List<Contributor>> call =
     gitHubService.repoContributors("square", "retrofit");
 ```
 
+<!--description-->
+
 这里是一个同步请求。语法和 OkHttp 基本一模一样，唯一不同是这个函数知道如何做数据的反序列化。它知道如何将 HTTP 响应转换成对象。
 方便很多是不是，在很多简单场景下甚至可以不用再引入 Gson 或 Jackson 了(当然你也可以轻松的用 Gson 等序列化库替换它)。
 
