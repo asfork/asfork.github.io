@@ -11,7 +11,7 @@ email: stevzhg+blog@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Draw an awesome path for coding here.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://unpin.github.io" # the base hostname & protocol for your site
+url: "https://asfork.github.io" # the base hostname & protocol for your site
 twitter_username: sourcepanic 
 github_username:  bytess 
 
