@@ -1,0 +1,10 @@
+{% if site.utteranc_repo %}
+  <div id="utteranc_thread"></div>
+  <script src="https://utteranc.es/client.js"
+    repo='{{ site.utteranc_repo }}'
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+  </script>
+{% endif %}
