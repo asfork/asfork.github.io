@@ -4,5 +4,6 @@ icon: fas fa-info
 order: 4
 ---
 
+You can find out more info about me at [github](https://github.com/asfork) and [twitter](https://twitter.com/sourcepanic).
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
