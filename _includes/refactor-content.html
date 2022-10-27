@@ -210,7 +210,7 @@
       {% assign left = snippet | split: mark_end | first %}
       {% assign right_offset = left.size | plus: mark_end.size %}
       {% assign right = snippet | slice: right_offset, snippet.size %}
-      {% assign left = left | replace: '">', '"><span class="mr-2">' | append: '</span>' %}
+      {% assign left = left | replace_first: '">', '"><span class="mr-2">' | append: '</span>' %}
 
       {% assign _new_content = _new_content | append: mark_start
           | append: left | append: anchor | append: mark_end | append: right
