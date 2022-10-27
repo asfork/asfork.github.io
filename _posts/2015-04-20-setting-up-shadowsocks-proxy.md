@@ -17,22 +17,25 @@ I will share my experience on passing each stage. Hope it works for you.
 ##	Catalogue
 ---
 
-*	[Wiki](#Wiki)
-*	[Server Side Install](#Server Side Install)
-*	[Configure and start the service](#Configure and start the service)
-*	[Optional: chacha20 encryption](#Optional: chacha20 encryption)
-*	[Optional: Optimizing shadowsocks](#Optional: Optimizing shadowsocks)
-*	[Optional: Optional: Zeta-TCP](#Optional: Optional: Zeta-TCP)
-*	[Clients on windows](#Clients on windows)
+*	[Wiki](#wiki)
+*	[Server Side Install](#server-side-install)
+*	[Configure and start the service](#configure-and-start-the-service)
+*	[Optional: chacha20 encryption](#optional-chacha20-encryption)
+*	[Optional: Optimizing shadowsocks](#optional-optimizing-shadowsocks)
+*	[Optional: Zeta-TCP](#optional-zeta-tcp)
+*	[Clients on windows](#clients-on-windows)
 
 ## Wiki
 ---
 
 A foreign server is required firstly.  I choosed a VPS which DigitalOcean server is located at San Francisco.
 Recommended VPS:
+
 [DigitalOcean](https://www.digitalocean.com/?refcode=4cac58a4d0a0) Provide cloud hosting in the US and Singapore. Default Support for TCP Hybla. Low-cost, take Paypal.
+
 [Linode](https://www.linode.com/) Provide cloud hosting in Japan and the US, High Bandwidth.
-[Bandwagonhost](https://shorturl.at/OiOTH) BandwagonHost is a popular VPS (Virtual Private Server) provider owned by the Canadian company IT7 Networks Inc.
+
+[Bandwagonhost](https://bandwagonhost.com/aff.php?aff=81109) is a popular VPS (Virtual Private Server) provider owned by the Canadian company IT7 Networks Inc. You can use [their CN2 GIA](https://shorturl.at/OiOTH) to get incredibly low latency and high stability for traffic moving between North America and East Asia, even during peak hours.
 
 **Shadowsocks-libev** is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 You can visit official site at [github.com/shadowsocks/shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) to see more introduction.
